@@ -1,0 +1,19 @@
+name: ci workflow
+on: push
+
+jobs:
+  First_job:
+    runs-on: ubuntu-latest 
+
+    steps:
+      - name: hello worls print
+        run: echo "bhahgggggggggggggggg.............."
+
+      - name: list file
+        run: ls
+
+      - name: create file 
+        run : touch just.txt
+
+      - name: open the file
+        run : cat just.txt
